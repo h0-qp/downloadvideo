@@ -1,0 +1,4 @@
+requests
+telebot
+pytelegrambotapi
+python-dotenv
