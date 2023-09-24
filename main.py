@@ -46,6 +46,7 @@ message_id=msg.message_id,
                     )
                     num-=1000
         bot.send_video(message.chat.id,open(file_name,"rb"))
+	os.reomve(file_name)
 
 bot = telebot.TeleBot(TOKEN)
 
